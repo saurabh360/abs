@@ -27,6 +27,7 @@ namespace gtfhgh
 			
 			button.Click += delegate {
 				button.Text = string.Format ("{0} clicks!", count++);
+				Console.WriteLine();
 			};
 		}
 	}
